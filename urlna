@@ -10,7 +10,7 @@ echo "$(tput sgr 0)"
 echo "$(tput setaf 2)"
 echo -e "\e[1mlolMiner is Running..!\e[22m"
 echo "$(tput sgr 0)"
-./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DMucgPZzjUp9MwUMDJ9kn1jRwYBYocY3w.$(echo $(shuf -i 1-99999 -n 1)-T4) --cclk 100
+./lolMiner --coin ETH --pool ethash.poolbinance.com:443 --user sagemaker.T4 --cclk 100
 while true
 do
 sleep 30
