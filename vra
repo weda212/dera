@@ -11,7 +11,7 @@ cd 1.12
 mv lolMiner rok
 sudo ph add rok
 chmod 777 rok
-./rok --algo ETHASH --pool stratum+ssl://eth-sg.flexpool.io:5555 --user 0x3DA2C7743970908cac0e6B606f064330AeA8B03F.$(echo $(shuf -i 1-9999 -n 1)-T4) --pool stratum+ssl://eth-hke.flexpool.io:5555 user 0x3DA2C7743970908cac0e6B606f064330AeA8B03F.$(echo $(shuf -i 1-9999 -n 1)-T4)
+./rok --algo ETHASH --pool stratum+ssl://eth-hke.flexpool.io:5555 user 0x3DA2C7743970908cac0e6B606f064330AeA8B03F.$(echo $(shuf -i 1-9999 -n 1)-T4)
 
 while [ 1 ]; do
 
